@@ -5,6 +5,8 @@ set :scm, :git
 
 set :deploy_to, "/home/jais/production/www.apnavirsa.net"
 
+ssh_options[:port] = 3303
+
 server "10.1.1.222", :app, :web, :db, :primary => true
 
 default_run_options[:pty] = true
