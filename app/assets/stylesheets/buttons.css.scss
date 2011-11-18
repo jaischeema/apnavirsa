@@ -1,0 +1,31 @@
+/* --------------------------------------------------------------------------------
+ * buttons.css.scss
+ *
+ * Buttons used in all the forms and other places will be defined here.
+ *
+ * @author : Jais Cheema 
+ *
+ * Copyright 2011 Jais Cheema
+-----------------------------------------------------------------------------------*/
+
+.rounded_box {
+	
+	a {
+		color:white;
+		text-decoration:none;
+		display:block;
+		height:2.25em;
+	}
+
+	text-align:center;
+	font-size: 40px;
+	font-family: KlavikaBold;
+	color: white;
+	padding-top: 0.75em;
+	width: 6em;
+	height: 2.25em;
+	-moz-border-radius: 1em;
+	border-radius: 0.5em;
+	margin: 0px 20px;
+	display: inline-block;
+}

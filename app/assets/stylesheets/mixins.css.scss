@@ -1,0 +1,53 @@
+/* -----------------------------------------*/
+/*          Mixins                          */
+
+
+
+/* ------------------------------------------*/
+/*            Helpers                        */
+
+.hidden {
+	display:none;
+}
+
+.clear-left {
+	clear:left;
+}
+
+.clear-right {
+	clear:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.imp {
+	color: #ff9900;
+}
+
+.orange {
+	background-color: #ff9900;
+}
+
+.gray {
+	background-color: #999;
+}
+
+.f_left {
+	float:left;
+}
+
+.f_right {
+	float:right;
+}
+
+.t_right {
+	text-align:right;
+}
+
+
+@mixin padded($value) {
+	padding-top:$value;
+	padding-bottom:$value;
+}

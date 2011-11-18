@@ -1,0 +1,116 @@
+/* --------------------------------------------------------------------------------
+ * layout.css.scss
+ *
+ * Defines the basic layout of the page and the elements that can be used to make the 
+ * page turn into whatever flow we want
+ *
+ * @author : Jais Cheema
+ *
+ * Copyright 2011 Jais Cheema
+-----------------------------------------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
+
+h1 { font-size: 3em; }
+h2 { font-size: 2em;}
+h3 { font-size: 1.5em;}
+h4 { font-size: 1.2em;}
+h5 { font-size: 1em;}
+h6 { font-size: 1em; }
+
+
+body {
+	font-family: KlavikaRegular, Helevetica Neue, Helevetica, sans-serif;
+
+	header {
+		nav {
+			font-family:KlavikaMedium;
+			color:#666666;
+
+			ul {
+				font-size:17px;
+
+				li {
+					a {
+						color:gray;	
+						text-decoration:none;	
+					}
+					
+					&.active a {
+						color:#ff9900
+					}
+					
+					a:hover {
+						color:#ff9900;
+					}			
+				}
+			}
+		}
+	}
+
+	.breadcrumbs {
+		ul {
+			font:12px KlavikaMedium;
+			color:#9b9b9b;
+		}
+
+		a {
+			text-decoration:none;
+			color:#454545;
+
+			&:hover {
+				color:#35acc5;
+			}
+		}
+	}
+
+	.page_title{
+		h1 {
+			font-size:46px;
+			font-family:KlavikaBold;
+			letter-spacing:-1px;
+		}
+
+		p {
+			font-family:KlavikaMedium;
+			color:#999;
+			font-size:24px;
+		}
+
+		&.left {
+			h1 {
+				font-size:38px;
+				font-family:KlavikaRegular;
+				letter-spacing:1px;
+				color:#999;
+			}
+		}
+	}
+
+	.footer {
+		color:white;
+
+		.container {
+			section {
+				h3 {
+					color:white;
+					font-size:20px;
+				}
+
+				a {
+					color:white;
+					font-size:14px;
+					text-decoration:none;
+					
+					&:hover {
+						color: #ff9900;
+					}
+				}
+			}
+
+			.copyright {
+				font-size:15px;
+			}
+		}
+	}
+}
