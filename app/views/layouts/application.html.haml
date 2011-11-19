@@ -1,0 +1,13 @@
+!!!5
+%html
+   %head
+      %title ApnaVirsa.net
+      = stylesheet_link_tag "application"
+      = javascript_include_tag "application"
+      = csrf_meta_tags
+   %body
+      .body_container
+         = yield
+         .push
+      .footer
+         .container
