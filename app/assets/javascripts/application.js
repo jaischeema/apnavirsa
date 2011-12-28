@@ -1,4 +1,4 @@
 //= require jquery
 //= require jquery_ujs
-//= require "plugins/modernizr.js"
-//= require "plugins/jquery.reveal.js"
+//= require "bootstrap-scrollspy.js"
+//= require "bootstrap-buttons.min.js"

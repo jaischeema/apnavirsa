@@ -1,0 +1,44 @@
+/* @font-face fonts */
+@font-face {
+    font-family: 'TheSansItalic';
+    src: url('thesans_italic-webfont.eot');
+    src: url('thesans_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesans_italic-webfont.woff') format('woff'),
+         url('thesans_italic-webfont.ttf') format('truetype'),
+         url('thesans_italic-webfont.svg#TheSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheSansPlain';
+    src: url('thesans_plain-webfont.eot');
+    src: url('thesans_plain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesans_plain-webfont.woff') format('woff'),
+         url('thesans_plain-webfont.ttf') format('truetype'),
+         url('thesans_plain-webfont.svg#TheSansPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheSansSemiBoldItalic';
+    src: url('thesanssemibold_italic-webfont.eot');
+    src: url('thesanssemibold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesanssemibold_italic-webfont.woff') format('woff'),
+         url('thesanssemibold_italic-webfont.ttf') format('truetype'),
+         url('thesanssemibold_italic-webfont.svg#TheSansSemiBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheSansSemiBoldPlain';
+    src: url('thesanssemibold_plain-webfont.eot');
+    src: url('thesanssemibold_plain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesanssemibold_plain-webfont.woff') format('woff'),
+         url('thesanssemibold_plain-webfont.ttf') format('truetype'),
+         url('thesanssemibold_plain-webfont.svg#TheSansSemiBoldPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

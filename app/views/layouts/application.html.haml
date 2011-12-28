@@ -1,13 +1,27 @@
-!!!5
+!!!
 %html
    %head
-      %title ਆਪਣਾ ਵਿਰਸਾ .ਨੈਟ
+      %meta{'charset' => 'utf-8'}
+      %meta{'http-equiv' => 'X-UA-Compatible', :content => 'IE-Edge,chrome=1'}
+      %meta{:name => 'description', :content => ''}
+      %meta{:name => 'author', :content => 'Jais Cheema'}
+      %meta{:name => 'viewport', :content => 'width=device-width,initial-scale=1'}
+
+      %title
+         = "ਆਪਣਾਵਿਰਸਾ.ਨੈਟ |"
+         = content_for?(:title) ? yield(:title) : "Untitled"
+
       = stylesheet_link_tag "application"
-      = javascript_include_tag "application"
-      = csrf_meta_tags
+
+      = javascript_include_tag :application
+   
    %body
-      .body_container
-         = yield
-         .push
-      .footer
-         .container
+      = render "layouts/topbar"
+      .container
+         .content
+            - if show_title?
+               .page-header
+                  = content_tag :h1, yield(:title)
+            = render "layouts/flash_messages"
+            = yield
+         = render "layouts/footer"

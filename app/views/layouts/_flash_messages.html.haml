@@ -1,0 +1,7 @@
+- if flash and flash.keys.count > 0
+   - flash.each do |name,msg|
+      .span16           
+         - if msg.is_a?(String)
+            .alert-message{ :class => "#{name}"}
+               %a.close{ :href => "#" }Ã
+               %p= msg
