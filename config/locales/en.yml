@@ -1,10 +1,17 @@
 en:
-  title: "ApnaVirsa.net"
-  author: "Jais Cheema"
+   title: "ApnaVirsa.net"
+   author: "Jais Cheema"
 
-  flash:
-    login_failure: "Invalid Credentials"
-    logged_in: "Successfully logged in"
-    already_logged_in: "You are already logged in"
-    logged_out: "Successfully logged out"
-    need_login: "You need to login before proceeding ahead"
+   flash:
+      login_failure: "Invalid Credentials"
+      logged_in: "Successfully logged in"
+      already_logged_in: "You are already logged in"
+      logged_out: "Successfully logged out"
+      need_login: "You need to login before proceeding ahead"
+      signed_up:
+      
+   menu:
+      home: "Home"
+      profile: "Profile"
+      settings: "Settings"
+      popular: "Popular"

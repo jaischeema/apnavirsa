@@ -1,10 +1,40 @@
 pb:
-  title: "ਆਪਣਾਵਿਰਸਾ.ਨੈਟ"
-  author: "Jais Cheema"
+   title: "ਆਪਣਾਵਿਰਸਾ.ਨੇਟ"
+   author: "ਜਸਵੀਰ ਸਿੰਘ ਚੀਮਾਂ"
 
-  flash:
-    login_failure: "Invalid Credentials"
-    logged_in: "Successfully logged in"
-    already_logged_in: "You are already logged in"
-    logged_out: "Successfully logged out"
-    need_login: "You need to login before proceeding ahead"
+   flash:
+      login_failure: "ਲੋਗਿਨ ਅਸਫਲ ਰਿਹਾ - ਆਪਣਾ ਊਜ਼ਰਨਾਮ/ਪਾਸਵਰ੍ਡ ਧਿਆਨ ਨਾਲ ਭਰੋ"
+      logged_in: "ਲੋਗਿਨ ਸਫਲ ਰਿਹਾ"
+      already_logged_in: "ਤੁਸੀ ਪਿਹਲਾ ਤੋ ਹੀ ਲੋਗਿਨ ਹੋ"
+      logged_out: "ਲੋਗੌਟ ਸਫਲ ਰਿਹਾ"
+      need_login: "ਅੱਗੈ ਜਾਣ ਤੋ ਪਿਹਲਾ ਲੋਗਿਨ ਕਰਨਾ ਜਰੂਰੀ ਹੈ"
+      signed_up: "Tuhada profile ban chuka hain"
+
+   menu:
+      home: "ਆਮ-ਖਾਸ"
+      profile: "ਮੇਰੀ ਪਿਹਿਚਾਣ"
+      settings: "ਸਹੂਲਤਾਂ"
+      popular: "ਮਸ਼ਹੂਰ"
+
+   views:
+      users:
+         sign_up: 'Signup'
+      session:
+         login: 'Login'
+
+   activerecord:
+      errors:
+         models:
+            user:
+               attributes:
+                  username:
+                     blank: "khali nahi ho sakda"
+                  email:
+                     blank: "khali nahi ho sakda"
+                  password:
+                     confirmation: "confirm nai kiya hain"
+                     blank: "khali nahi ho sakda"
+      views:
+         user:
+             attributes:
+               username: "Kuch Bhi"  

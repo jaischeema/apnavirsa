@@ -1,9 +1,10 @@
 .topbar{"data-scrollspy" => "scrollspy"}
    .fill
       .container
-         %a.brand{ :href => "/"} ਆਪਣਾ ਵਿਰਸਾ
+         %a.brand{ :href => "/"}
+            = t('title')
          %ul.nav
-            %li= link_to "Home", root_path
-            %li= link_to "Profile", profile_path
-            %li= link_to "Popular", popular_posts_path
-            %li= link_to "Settings", settings_path
+            %li= link_to t('menu.home'), root_path
+            %li= link_to t('menu.profile'), profile_path
+            %li= link_to t('menu.popular'), popular_posts_path
+            %li= link_to t('menu.settings'), settings_path

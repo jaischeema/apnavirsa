@@ -1,0 +1,19 @@
+- title(t('views.session.login'))
+
+.span16
+   = form_tag sessions_path do
+      .fieldset
+         .clearfix
+            = label_tag :username
+            .input
+               = text_field_tag :username, params[:username], :class => 'xlarge'
+         .clearfix
+            = label_tag :password
+            .input
+               = password_field_tag :password, params[:password], :class => 'xlarge'
+         .clearfix
+            .input
+               = check_box_tag :remember_me, 1, params[:remember_me]
+               %span Remeber Me
+         .actions
+            = submit_tag "Log In", :class => "btn medium primary"
