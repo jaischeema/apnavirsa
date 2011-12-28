@@ -19,3 +19,5 @@ gem 'rspec-rails'
 
 gem 'haml'
 gem 'haml-rails'
+
+gem 'sorcery'
